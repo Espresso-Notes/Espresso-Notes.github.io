@@ -16,3 +16,4 @@ This file is then fed through the various compilers available with Espresso Note
 ## Weekly Reports
 
 - [Week 1](reports/week1.md)
+- [Week 2](reports/week2.md)
