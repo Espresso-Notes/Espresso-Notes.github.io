@@ -17,3 +17,15 @@ Upcoming changes:
 - Templating Engine
 - Support for Code Blocks
 - Support for LaTeX Blocks
+
+## Editor
+
+The beginning of the editor needs to be in raw mode to make the text editor due to preset keystroke functions. 
+So far, the text editor portion sets up the program so that it can be a usable base for the functions of text editing.
+The text editor subsystem can enter raw mode to begin establishing the text editor.
+
+Upcoming changes:
+
+- Viewing Text
+- Editing Text from User
+- Initializes Default Settings
