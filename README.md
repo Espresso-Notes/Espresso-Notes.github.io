@@ -10,8 +10,8 @@ LaTeX source files will need to be compiled elsewhere by the user.
 
 ## Weekly Reports
 
-- [Week 2](reports/week1.md)
-- [Week 3](reports/week2.md)
+- [Week 3](reports/week1.md)
+- [Week 4](reports/week2.md)
 - [Week 5](reports/week5.md)
 - [Week 6](reports/week6.md)
 
