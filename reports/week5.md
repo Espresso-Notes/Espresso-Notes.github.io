@@ -10,7 +10,7 @@ These will each then be referenced by any parent objects.
 Content Blocks will reference Tag objects.
 The Notes Document file will reference Content Block files.
 
-As always, the Notes Document Standard documents can be found on this site [here](./docs/schemas.html), and in its own repository [here](https://github.com/Espresso-Notes/NotesDocumentStandard).
+As always, the Notes Document Standard documents can be found on this site [here](../docs/schemas.html), and in its own repository [here](https://github.com/Espresso-Notes/NotesDocumentStandard).
 
 ## HTML Compiler
 
