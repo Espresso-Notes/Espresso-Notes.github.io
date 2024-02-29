@@ -2,6 +2,10 @@
 
 Espresso Notes aims to be a Notes taking application targeted for STEM students.
 Custom made blocks for content will enable out of the box styling and guidelines for generated notes documents.
+These generated documents will initially have support for HTML and LaTeX source formats.
+
+The HTML documents are intended to be a standalone system, able to be viewed on the host machine.
+LaTeX source files will need to be compiled elsewhere by the user.
 
 
 ## Weekly Reports
@@ -9,6 +13,7 @@ Custom made blocks for content will enable out of the box styling and guidelines
 - [Week 2](reports/week1.md)
 - [Week 3](reports/week2.md)
 - [Week 5](reports/week5.md)
+- [Week 6](reports/week6.md)
 
 
 ## Document Schemas
