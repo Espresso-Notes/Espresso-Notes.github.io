@@ -68,3 +68,14 @@ For example, there would potentially be one for each of the different languages 
 We are already utilized the same CSS definitions for Markdown that GitHub uses.
 These will be extended as necessary for the project, and built in such a way that users can customize them.
 
+## Notes Editor
+
+### Emily
+
+This week, I worked on functions in the text editor.
+Now, from the editor, we are able to open the file directory and browse files.
+We plan to move on with developing the functions initially stated in the design document.
+Currently, we would like to make it so that when the user creates pages, it resembles working in a notebook more as opposed to a Word document.
+In the works is the tagging system.
+The functional goals for it are to have a directory of tags, for the tags to lead to the designated pages, and for key words and definitions to be highlighted in text.
+
