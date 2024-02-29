@@ -15,20 +15,35 @@ The compilers will output their generated documents to here for usage, along wit
 An example directory might be:
 
 📦espressonotes
+
  ┣ 📂notebooks
+
  ┃ ┣ 📂notebook1
+
  ┃ ┃ ┣ 📂notes
+
  ┃ ┃ ┣ 📂out
+
  ┃ ┃ ┃ ┣ 📂html
+
  ┃ ┃ ┃ ┃ ┣ 📂css
+
  ┃ ┃ ┃ ┃ ┃ ┣ 📜clang.css
+
  ┃ ┃ ┃ ┃ ┃ ┣ 📜markdown.css
+
  ┃ ┃ ┃ ┃ ┃ ┗ 📜python.css
+
  ┃ ┃ ┃ ┃ ┗ 📜index.html
+
  ┃ ┃ ┃ ┗ 📂latex
+
  ┃ ┃ ┗ 📂templates
+
  ┃ ┗ 📂notebook2
+
  ┣ 📜app.exe
+ 
  ┗ 📜settings.json
 
 ## HTML Compiler
