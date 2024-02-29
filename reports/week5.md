@@ -29,3 +29,19 @@ The HTML compiler will be utilized in the Editor for previews and rapid compilat
 ### Katie, Cody, Emily
 
 Initial thoughts on the design of the Editor have been discussed.
+Cody has created some initial images.
+
+#### Start Screen
+![Start Screen](week5/start_screen.png)
+
+#### Main Document
+![Main Document](week5/main_document.png)
+
+#### Quick Menu
+![Quick Menu](week5/quick_menu.png)
+
+#### Save Screen
+![Save Screen](week5/save_screen.png)
+
+#### Load Screen
+![Load Screen](week5/load_screen.png)
