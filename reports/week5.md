@@ -31,17 +31,36 @@ The HTML compiler will be utilized in the Editor for previews and rapid compilat
 Initial thoughts on the design of the Editor have been discussed.
 Cody has created some initial images.
 
-#### Start Screen
-![Start Screen](week5/start_screen.png)
+# Concepts for User Interface
 
-#### Main Document
-![Main Document](week5/main_document.png)
+## Starting Screen
+![image](week5/Start_Screen.png)
+> Selecting "New Document" will bring the user to the main document screen.  
+> Selecting "Browse Documents" will allow the user to browse and load previously saved documents from the application's "Notebook" file structure.
 
-#### Quick Menu
-![Quick Menu](week5/quick_menu.png)
+## "Browse Documents" Screen
+![image](week5/Browse_Screen.png)
+> "Notebooks" act as the application's main front-end file system. Documents will be saved to the Windows file system, but notebooks are used as a way to organize documents in an intuitive way.
 
-#### Save Screen
-![Save Screen](week5/save_screen.png)
+## Main Document Screen
+![image](week5/Document_Screen.png)
+> The main interface for viewing and editing documents. The menus and tools are shown on the sides.
+> 
+> **Left side:**  
+>> - The "Quick Menu" button will open up the "Quick Menu" where documents can be saved or loaded.  
+>> - The Zoom buttons will allow the document to be zoomed in or out on the screen.
+>  
+> **Right side:**
+>> - The Text tool will allow for text editing using markdown and code block editing.
+>> - The Pencil tool will allow for writing and erasing with the mouse.
+>> - The Photo tool will allow photos to be uploaded as well as scanned for text and code.
+>> - The Selection tool will allow photos and other visual elements to be resized.
+>> - The Page selection buttons will allow the user to quickly scroll through a document with multiple pages.
 
-#### Load Screen
-![Load Screen](week5/load_screen.png)
+## "Quick Menu" Screen
+![iamge](week5/Menu_Screen.png)
+> The Quick Menu allows the user to save the current document as well as see any other notebooks and documents availablke to view and edit.
+
+## "Save Document" Screen
+![image](week5/Save_Screen.png)
+> Similar to the "Browse Documents" screen, but also allows the user to save the current document to an existing notebook.
