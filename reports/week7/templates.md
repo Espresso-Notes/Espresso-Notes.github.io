@@ -7,7 +7,7 @@ The use of templating ensures that we can keep our modules independent and clean
 
 ## Base Notes HTML Template
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
