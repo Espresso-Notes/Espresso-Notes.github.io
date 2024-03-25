@@ -1,7 +1,7 @@
 # Espresso Notes Schemas
 
-- [Code Content Block](docs\codeblock.md)
-- [Markdown Block](docs\markdownblock.md)
-- [Espresso Notes Document](docs\notesdoc.md)
-- [Notes Tag Schema](docs\notestag.md)
-- [Espresso Notes Project](docs\project.md)
+- [Code Content Block](codeblock.md)
+- [Markdown Block](markdownblock.md)
+- [Espresso Notes Document](notesdoc.md)
+- [Notes Tag Schema](notestag.md)
+- [Espresso Notes Project](project.md)
