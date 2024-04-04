@@ -44,6 +44,6 @@ Users will enjoy a featured Espresso Notes editor custom made to support our con
 This Editor is built utilizing Electron, to make for an easily cross platform desktop app.
 This achieves one of our core goals of making this an easy to use, offline application.
 
-The latest editor version can be found [here](https://github.com/Espresso-Notes/espresso_notes_electron/tags).
+The latest editor version can be found [here](https://github.com/Espresso-Notes/espresso-notes).
 
 Installation and usage manual to come at a later date.
