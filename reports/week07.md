@@ -31,4 +31,4 @@ These will require an expansion of the templating files to include a search feat
 
 - Example: [JSON](week7/test_notes1.json) [HTML](week7/test_notes1.html)
 - Example: [JSON](week7/test_notes2.json) [HTML](week7/test_notes2.html)
-- Example: [JSON](week7/test_notes3.json) [HTML](week7/test_notes3.html) 
+- Example: [JSON](week7/test_notes3.json) [HTML](week7/test_notes3.html)

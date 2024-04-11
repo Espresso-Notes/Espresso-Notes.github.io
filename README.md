@@ -10,11 +10,15 @@ LaTeX source files will need to be compiled elsewhere by the user.
 
 ## Weekly Reports
 
-- [Week 3](reports/week1.md)
-- [Week 4](reports/week2.md)
-- [Week 5](reports/week5.md)
-- [Week 6](reports/week6.md)
-- [Week 7](reports/week7.md)
+- [Week 3 (1/29)](reports/week01.md)
+- [Week 4 (2/5)](reports/week02.md)
+- [Week 5 (2/12)](reports/week05.md)
+- [Week 6 (2/19)](reports/week06.md)
+- [Week 7 (2/26)](reports/week07.md)
+- [Week 9 (3/18)](reports/week09.md)
+- [Week 10 (3/25)](reports/week10.md)
+- [Week 11 (4/1)](reports/week11.md)
+- [Week 12 (4/8)](reports/week12.md)
 
 
 ## Document Schemas
@@ -44,6 +48,6 @@ Users will enjoy a featured Espresso Notes editor custom made to support our con
 This Editor is built utilizing Electron, to make for an easily cross platform desktop app.
 This achieves one of our core goals of making this an easy to use, offline application.
 
-The latest editor version can be found [here](https://github.com/Espresso-Notes/espresso_notes_electron/tags).
+The latest editor version can be found [here](https://github.com/Espresso-Notes/espresso-notes).
 
 Installation and usage manual to come at a later date.
