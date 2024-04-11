@@ -16,3 +16,8 @@ These features were able to be implemented thanks to a third-party component for
 MDXEditor has been used in tandem with [TailwindCSS](https://tailwindcss.com/), a library for CSS which makes creating and altering visual interfaces much quicker and more intuitive. Combining the power of these two, the editor has been able to be presented in a much more sleek way while also allowing necessary features to be created with less hassle.
 
 Two features which were not able to be implemented with these tools are support for the LATEX language or optical character recognition allowing photographs to be converting into text. Although they have been more tricky to successfully implement, work will continue on finding other ways to make these features function within our current project framework.
+
+
+## Robert
+
+This week's update on the Compiler is actually located over [here](Week 12 Info.html), and is a file compiled and rendered by the compiler.
