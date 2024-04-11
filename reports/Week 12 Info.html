@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Week 12 Info</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/github-markdown.css">
+    <link rel="stylesheet" href="css/pygmentize.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+<style>
+    .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+    }
+
+    @media (max-width: 767px) {
+        .markdown-body {
+            padding: 15px;
+        }
+    }
+</style>
+
+<body>
+
+    <article class="markdown-body">
+        <h1>Week 12 Info</h1>
+        <h3>Robert Krency</h3>
+        <h4>ENotes.Week12.Info</h4>
+        <h4></h4>
+    </article>
+
+    
+    <article class="markdown-body">
+        <h1>Summary</h1>
+<p>In Week 12, the compiler has actually been rewritten considerably.
+This simplifies the entire process, and streamlines it. 
+Support has been added for both Code and LaTeX content blocks.
+The CLI has been adapted to provide a few different options and ways to compile documents.</p>
+<p>Code content blocks are made possible through the [Pygmentize] library.
+This allows us to support a wide array of programming languages for syntax highlighting.
+While a few features are still desirable, such as easier copying of code, the code blocks are nicely presented.
+This does require the addition of another CSS file, or inline styling, of which we are debating which is better.</p>
+<p>LaTeX support comes in the form of the MathJax JavaScript library.
+The inclusion of this library is a requirement in templates.</p>
+<p>The largest hurdle left is packaging the program into a shippable executable.</p>
+<h2>To Do</h2>
+<ul>
+<li>CLI Finalization &amp; Documentation</li>
+<li>Template Documentation</li>
+<li>Packaging &amp; Distribution</li>
+<li>Full Usage Documentation</li>
+</ul>
+    </article>
+    
+    <article class="markdown-body">
+        <h2>Command Line Interface (CLI)</h2>
+<p>This is a list of the commands and options available for usage. 
+By default, the Compiler will search in the base directory for the project files.</p>
+<ul>
+<li><code>--directory</code> or <code>-d</code>: The directory location of the Project files.</li>
+<li><code>--project</code> or <code>-p</code>: Compile a full Project.</li>
+<li><code>--file</code> or <code>-f</code>: Compile a standalone Notes File.</li>
+<li><code>--template</code> or <code>-t</code>: Compile using this template</li>
+</ul>
+    </article>
+    
+    <article class="markdown-body">
+        <h1>Python Code Block Example</h1>
+<p>Below is an example of Python Code marked up by the compilation process.
+This is a brief glimpse of the DataClasses utilized by the Compiler.</p>
+    </article>
+    
+    <article class="markdown-body">
+        <div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span>
+<span class="linenos"> 2</span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="linenos"> 3</span><span class="kn">import</span> <span class="nn">json</span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span><span class="nd">@dataclass</span>
+<span class="linenos"> 6</span><span class="k">class</span> <span class="nc">NotesDocument</span><span class="p">:</span>
+<span class="linenos"> 7</span>    <span class="n">documentID</span> <span class="p">:</span> <span class="nb">str</span>
+<span class="linenos"> 8</span>    <span class="n">title</span> <span class="p">:</span> <span class="nb">str</span>
+<span class="linenos"> 9</span>    <span class="n">author</span> <span class="p">:</span> <span class="nb">str</span>
+<span class="linenos">10</span>    <span class="n">lastModified</span> <span class="p">:</span> <span class="nb">int</span>
+<span class="linenos">11</span>    <span class="n">content</span> <span class="p">:</span> <span class="nb">list</span>
+<span class="linenos">12</span>
+<span class="linenos">13</span><span class="nd">@dataclass</span>
+<span class="linenos">14</span><span class="k">class</span> <span class="nc">ContentBlock</span><span class="p">:</span>
+<span class="linenos">15</span>    <span class="n">contentID</span> <span class="p">:</span> <span class="nb">int</span>
+<span class="linenos">16</span>    <span class="n">index</span> <span class="p">:</span> <span class="nb">int</span>
+<span class="linenos">17</span>    <span class="n">blockType</span> <span class="p">:</span> <span class="nb">str</span>
+<span class="linenos">18</span>
+<span class="linenos">19</span><span class="nd">@dataclass</span>
+<span class="linenos">20</span><span class="k">class</span> <span class="nc">MarkdownBlock</span><span class="p">(</span><span class="n">ContentBlock</span><span class="p">):</span>
+<span class="linenos">21</span>    <span class="n">text</span> <span class="p">:</span> <span class="nb">str</span>
+<span class="linenos">22</span>
+<span class="linenos">23</span><span class="nd">@dataclass</span>
+<span class="linenos">24</span><span class="k">class</span> <span class="nc">CodeBlock</span><span class="p">(</span><span class="n">ContentBlock</span><span class="p">):</span>
+<span class="linenos">25</span>    <span class="n">code</span> <span class="p">:</span> <span class="nb">str</span>
+<span class="linenos">26</span>    <span class="n">language</span> <span class="p">:</span> <span class="nb">str</span>
+<span class="linenos">27</span>
+<span class="linenos">28</span><span class="nd">@dataclass</span>
+<span class="linenos">29</span><span class="k">class</span> <span class="nc">LaTeXBlock</span><span class="p">(</span><span class="n">ContentBlock</span><span class="p">):</span>
+<span class="linenos">30</span>    <span class="n">text</span> <span class="p">:</span> <span class="nb">str</span>
+</pre></div>
+
+    </article>
+    
+    <article class="markdown-body">
+        <h1>LaTeX Examples</h1>
+<p>Through MathJax, we've managed to include support for TeX style equations.
+It's possible to do both inline math and full environment math.
+Below is an example, which is Maxwell's Equation for Faraday's Law.</p>
+    </article>
+    
+    <article class="markdown-body">
+        \[\sum_{N} \frac {1} {N^s} = \prod_{p} \frac {1} {1 – \frac {1} {p^s}}\]
+    </article>
+    
+    
+</body>
+</html>
