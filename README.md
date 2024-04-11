@@ -10,11 +10,16 @@ LaTeX source files will need to be compiled elsewhere by the user.
 
 ## Weekly Reports
 
-- [Week 3](reports/week1.md)
-- [Week 4](reports/week2.md)
-- [Week 5](reports/week5.md)
-- [Week 6](reports/week6.md)
-- [Week 7](reports/week7.md)
+- [Week 3](reports/week01.md)
+- [Week 4](reports/week02.md)
+- [Week 5](reports/week05.md)
+- [Week 6](reports/week06.md)
+- [Week 7](reports/week07.md)
+- [Week 8](reports/week08.md)
+- [Week 9](reports/week09.md)
+- [Week 10](reports/week10.md)
+- [Week 11](reports/week11.md)
+- [Week 12](reports/week12.md)
 
 
 ## Document Schemas
