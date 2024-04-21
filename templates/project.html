@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/github-markdown.css">
+    <link rel="stylesheet" href="css/pygmentize.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+<style>
+    .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+    }
+
+    @media (max-width: 767px) {
+        .markdown-body {
+            padding: 15px;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- Display Project Metadata -->
+
+    <article class="markdown-body">
+        <h1>{{title}}</h1>
+        <h3>{{authors}}</h3>
+        <h4>{{description}}</h4>
+
+        <ul>
+            {% for doc in notes_docs %}
+            <li><a href="{{doc['file']}}">{{doc['title']}}</a></li>
+            {% endfor %}
+        </ul>
+    </article>
+    
+</body>
+</html>

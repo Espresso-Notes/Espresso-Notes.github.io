@@ -2,9 +2,14 @@
 <html lang="en">
 
 <head>
-    <title>{{content.title}}</title>
+    <title>{{title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/github-markdown.css">
+    <link rel="stylesheet" href="css/pygmentize.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
 </head>
 
 <style>
@@ -26,15 +31,15 @@
 <body>
 
     <article class="markdown-body">
-        {{content.title}}
-        {{content.documentID}}
-        {{content.author}}
-        {{content.last_modified}}
+        <h1>{{title}}</h1>
+        <h3>{{author}}</h3>
+        <h4>{{docID}}</h4>
+        <h4>{{docmodified}}</h4>
     </article>
 
-    {% for content_block in content.blocks %}
+    {% for block in contentBlocks %}
     <article class="markdown-body">
-        {{content_block}}
+        {{block}}
     </article>
     {% endfor %}
     
