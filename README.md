@@ -7,6 +7,14 @@ These generated documents will initially have support for HTML and LaTeX source 
 The HTML documents are intended to be a standalone system, able to be viewed on the host machine.
 LaTeX source files will need to be compiled elsewhere by the user.
 
+## Final Result
+
+An example of the final result can be found [here](example/Espresso%20Notes%20Result.html).
+
+## Default Templates
+
+Default HTML Templates can be found [here](templates/templates.html).
+
 
 ## Weekly Reports
 
@@ -29,7 +37,6 @@ All application documents will utilize the JSON format with an appropriate [JSON
 - [Notes Document](docs/notesdoc.md)
 - [Markdown Block](docs/markdownblock.md)
 - [Code Block](docs/codeblock.md)
-- [Notes Tag](docs/notestag.md)
 
 These schemas are not finalized and subject to change as project continues.
 
