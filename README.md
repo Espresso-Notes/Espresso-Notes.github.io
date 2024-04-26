@@ -27,6 +27,7 @@ Default HTML Templates can be found [here](templates/templates.html).
 - [Week 10 (3/25)](reports/week10.md)
 - [Week 11 (4/1)](reports/week11.md)
 - [Week 12 (4/8)](reports/week12.md)
+- [Week 13 (4/15)](reports/week13.md)
 
 
 ## Document Schemas
