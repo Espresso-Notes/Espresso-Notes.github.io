@@ -8,9 +8,9 @@ Currently only Markdown content type is supported.
 
 Here is an example of a generated file and its rendered HTML counterpart:
 
-[Example JSON File](week2-example.json)
+[Example JSON File](week02-example.json)
 
-[Example HTML Content](week2-example.html)
+[Example HTML Content](week02-example.html)
 
 Upcoming changes:
 
